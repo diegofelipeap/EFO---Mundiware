@@ -6,13 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enfoco - O seu site de notícias</title>
 </head>
+<!--Apenas para testar a aparição do botão-->
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .button-burger {
+        width: 44px;
+        height: 44px;
+        background: #000000 0% 0% no-repeat padding-box;
+        border-radius: 40px;
+        opacity: 1;
+    }
+
+    .icon-button {
+        width: 20px;
+        height: 16px;
+    }
+</style>
 
 <body>
 
     <header>
-        <button type="button"><img src="" alt="ícone de botão"></button>
-        <img src="" alt="logo do site">
-        <input type="text" placeholder="Busque aqui...">
+        <a href="#button" class="button-burger"><img src="./assets/menu-svgrepo-com.svg" alt="ícone de botão"
+                class="icon-button"></a>
+        <img src="./assets/Retângulo 52@2x.webp" alt="logo do site">
+
+        <div class="inputContainer">
+            <input type="text" placeholder="Busque aqui..." readonly>
+            <img src="./assets/search-alt-svgrepo-com.svg" alt="ícone de lupa">
+        </div>
 
         <nav>
             <li>
@@ -30,13 +56,30 @@
             </li>
         </nav>
 
-        <section>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+        <section> <!-- Slider e Navbar inicial-->
+            <article>
+                <img src="./assets/Retângulo 55@2x.webp" alt="Foto do cantor Roberto Carlos">
+                <h3>Roberto Carlos em Niterói: ingressos mais caros já acabaram</h3>
+            </article>
+            <article>
+                <img src="./assets/Retângulo 55-1@2x.webp"
+                    alt="Foto do jogador de futebol Neymar e digital influencer Bruna Biancardi">
+                <h3>Após declaração de Neymar, Biancardi toma atitude inusitada</h3>
+            </article>
+            <article>
+                <img src="./assets/Retângulo 55-2@2x.webp" alt="Foto do apresentador Ratinho">
+                <h3>Ratinho recebe intimação por declarações homofóbicas</h3>
+            </article>
+            <article>
+                <img src="./assets/Retângulo 55-4@2x.webp" alt="Imagem de um trem">
+                <h3>Só delas! VLT carioca terá vagão exclusivo para as mulheres</h3>
+            </article>
+            <article>
+                <img src="./assets/Retângulo 55-3@2x.webp" alt="Foto de homem com guarda-chuva">
+                <h3>Frente fria vai mudar o tempo no Rio; saiba quando</h3>
+            </article>
         </section>
+
     </header>
 
     <main>
@@ -46,6 +89,21 @@
                 <a href="#">Esportes</a>
             </section>
 
+            <section> <!--ícones de redes sociais laterais-->
+                <a href="#facebook">
+                    <img src="assets/facebook@2x.webp" alt="ícone da rede social Facebook">
+                </a>
+                <a href="#instagram">
+                    <img src="assets/instagram@2x.webp" alt="ícone da rede social Instagram">
+                </a>
+                <a href="#x">
+                    <img src="assets/x@2x.webp" alt="ícone da rede social X">
+                </a>
+                <a href="#whatsapp">
+                    <img src="assets/whatsapp@2x.webp" alt="ícone da rede social Whatsapp">
+                </a>
+            </section>
+
             <span>Quarta edição</span>
 
             <h1>'Meia Maratona do Cristo': inscrições começam nesta quarta-feira</h1>
@@ -53,6 +111,16 @@
             <p>Publicado 27 de março de 2024 às 08:48 h | Atualizado em 27/03/2024, 08:48 | Autor: Enfoco</p>
 
             <button>Ouça o artigo</button>
+
+            <figure>
+                <img src="assets/ads-728x90@2x.webp" alt="Banner de um anúncio">
+            </figure>
+            <figure>
+                <img src="assets/Retângulo 29.webp" alt="Foto principal do site">
+                <figcaption>A chegada da corrida será aos pés do Cristo Redentor | Foto: Divulgação/Effect Sport</figcaption>
+            </figure>
+
+            <p>Rio - A espera acabou. A Meia Maratona do Cristo 2024 abre inscrições a partir desta quarta-feira, dia 8 de maio, com condições especiais para participantes de edições passadas. A prova deste ano acontece no dia 29 de setembro, mais uma vez oferecendo uma experiência inesquecível em trajeto que percorre cartões postais do Rio de Janeiro e chegada aos pés do Cristo Redentor. As inscrições poderão ser feitas por meio do site <a href="meiamaratonadocristo.com.br" target="_blank">meiamaratonadocristo.com.br</a>, com vagas limitadas.</p>
         </article>
     </main>
 
