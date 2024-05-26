@@ -4,41 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Enfoco - O seu site de notícias</title>
 </head>
-<!--Apenas para testar a aparição do botão-->
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .button-burger {
-        width: 44px;
-        height: 44px;
-        background: #000000 0% 0% no-repeat padding-box;
-        border-radius: 40px;
-        opacity: 1;
-    }
-
-    .icon-button {
-        width: 20px;
-        height: 16px;
-    }
-</style>
 
 <body>
 
     <header>
-        <a href="#button" class="button-burger"><img src="./assets/menu-svgrepo-com.svg" alt="ícone de botão"
-                class="icon-button"></a>
-        <img src="./assets/Retângulo 52@2x.webp" alt="logo do site">
-
-        <div class="inputContainer">
-            <input type="text" placeholder="Busque aqui..." readonly>
-            <img src="./assets/search-alt-svgrepo-com.svg" alt="ícone de lupa">
-        </div>
+        <nav> <button href="#button" class="buttonBurger"><img src="./assets/menu-svgrepo-com.svg"
+                    alt="ícone de botão"></button>
+            <img src="./assets/Retângulo 52@2x.webp" alt="logo do site">
+            <div class="inputContainer">
+                <input type="text" placeholder="Busque aqui..." readonly>
+                <img src="./assets/search-alt-svgrepo-com.svg" alt="ícone de lupa">
+            </div>
+        </nav>
 
         <nav>
             <li>
@@ -198,7 +178,7 @@
             <button disabled="disabled">Effect Sport</button>
             <button disabled="disabled">Corcovado</button>
 
-            <div class="div-tag">
+            <div class="divTag">
                 <p>Siga o <a href="#Enfoco">Enfoco Site de Notícias</a> no Google e fique por dentro de tudo</p>
                 <figure>
                     <img src="assets/7123018_news_google_icon.svg" alt="ícone do Google">
@@ -247,7 +227,7 @@
             </figure>
         </section>
 
-        <section class="last-notices">
+        <section class="lastNotices">
             <h3>Últimas notícias</h3>
             <article>
                 <img src="assets/7 últimas.webp" alt="Foto de Piruinha">
@@ -283,47 +263,55 @@
     <footer> <!--Iniciar footer ainda hoje.-->
         <nav class="navLinks">
             <li>
-                <p>EMPREGOS</p>
-                <a href="#2">Capacitação</a>
-                <a href="#2">Concursos</a>
-                <a href="#2">Servidor Público</a>
-                <div>
-                    <p id="polite-title">POLÍTICA</p>
-                    <a href="#2">Capa de Política</a> <br>
-                    <a href="#2">Eleições 2022</a>
-                </div>
+                <p>Editorias</p>
+                <a href="#2">Capa</a>
+                <a href="#2">Polícia</a>
+                <a href="#2">Política</a>
+                <a href="#2">Cidades</a>
+                <a href="#2">Brasil & Mundo</a>
+                <a href="#2">Entretimento</a>
+                <a href="#2">Colunistas</a>
+                <a href="#2">Esportes</a>
+                <a href="#2">Webstories</a>
+                <a href="#2">Tá bombando</a>
+                <a href="#2">Vídeos</a>
             </li>
             <li>
-                <p>ESPORTE</p>
-                <a href="#2">E. C. Bahia</a>
-                <a href="#2">E. C. Vitória</a>
-                <a href="#2">Esportes Náuticos</a>
-                <a href="#2">Futebol Interior do Estado</a>
-                <a href="#2">Futebol Mundial</a>
+                <p>Cidades</p>
+                <a href="#2">Rio de Janeiro</a>
+                <a href="#2">Niterói</a>
+                <a href="#2">São Gonçalo</a>
+                <a href="#2">Itaboraí</a>
+                <a href="#2">Maricá</a>
+                <a href="#2">Região dos Lagos</a>
+                <a href="#2">Região Serrana</a>
+                <a href="#2">Interior</a>
+                <a href="#2">Baixada</a>
             </li>
             <li>
-                <p>CIDADES</p>
-                <a href="#2">Capa de Cidades</a>
-                <a href="#2">Salvador</a>
-                <a href="#2">Feira de Santana</a>
-                <a href="#2">Vitória da Conquista</a>
-                <a href="#2">Juazeiro</a>
-                <a href="#2">Lauro de Freitas</a>
-                <a href="#2">Itabuna</a>
+                <p>Colunas</p>
+                <a href="#2">Direito e Muito Mais</a>
+                <a href="#2">Carreiras & Negócios</a>
+                <a href="#2">Questão de Justiça</a>
+                <a href="#2">Conexões Místicas</a>
+                <a href="#2">Conexões Místicas</a>
+                <a href="#2">Mais Leve</a>
+                <a href="#2">Dá o Play</a>
+                <a href="#2">Papo de Vet</a>
             </li>
             <li>
-                <p>LINKS</p>
-                <a href="#2">Fale com Massa</a>
-                <a href="#2">Política de Privacidade</a>
-                <a href="#2">Termos de Uso</a>
-                <a href="#2">Anuncie no site</a>
-                <a href="#2">Classificados</a>
+                <p>Links</p>
+                <a href="#2">Quem somos</a>
+                <a href="#2">Anuncie aqui</a>
+                <a href="#2">Atos e editais</a>
                 <a href="#2">Trabalhe Conosco</a>
-                <a href="#2">Ajuda</a>
+                <a href="#2">Contato</a>
+                <a href="#2">Política de Privacidade</a>
+                <a href="#2">Expediente</a>
             </li>
         </nav>
         <!--Ficará ao lado dirito das listas de links-->
-        <section id="topFooter">
+        <section class="socialIcon">
             <img src="./assets/desktop/logo.svg" alt="Logo do site" id="footerLogo">
             <div class="footerImg">
                 <a href="#facebook" class="firstNavIcons">

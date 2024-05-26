@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttonBurger {
+    width: 44px;
+    height: 44px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 90px;
+    border: none;
+    opacity: 1;
+}
+
+.buttonBurger>img {
+    width: 20px;
+    height: 16px;
+}
+
+
+header>nav:first-child {
+    display: flex;
+}
+
+header>nav>img {
+    width: 256px;
+    height: 58px;
+}
+
+.inputContainer>input {
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    width: 261px;
+    height: 42px;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+}
