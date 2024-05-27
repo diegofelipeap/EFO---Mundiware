@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="components/header.css">
+    <link rel="stylesheet" href="components/main.css">
+    <link rel="stylesheet" href="components/aside.css">
     <title>Enfoco - O seu site de notícias</title>
 </head>
 <style>
     * {
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
     }
@@ -29,7 +31,7 @@
 
         <nav>
             <li>
-                <a href="#a">Esportes</a>
+                <a href="#a" class="firstLinkColor">Esportes</a>
                 <a href="#a">Capas</a>
                 <a href="#a">Polícia</a>
                 <a href="#a">Política</a>
@@ -70,8 +72,8 @@
     </header>
 
     <main>
-        <article>
-            <section>
+        <article class="mainArticle">
+            <section class="navigationLinks">
                 <a href="#">Home</a>
                 <a href="#">Esportes</a>
             </section>
@@ -179,7 +181,50 @@
             </section>
         </article>
 
-        <section>
+        <aside>
+            <section class="ad">
+                <figure>
+                    <img src="assets/ads-300x250.webp" alt="banner do primeiro anúncio">
+                </figure>
+                <figure>
+                    <img src="./assets/ads-300x600.webp">
+                </figure>
+            </section>
+    
+            <section class="lastNotices">
+                <h3>Últimas notícias</h3>
+                <article>
+                    <img src="assets/7 últimas.webp" alt="Foto de Piruinha">
+                    <h4>Julgamento do bicheiro Piruinha é adiado após pedido do MPRJ</h4>
+                </article>
+                <article>
+                    <img src="assets/6 últimas.webp" alt="Imagem de uma torneira">
+                    <h4>Vai faltar água em 14 bairros do Rio; saiba quem deve economizar</h4>
+                </article>
+                <article>
+                    <img src="assets/5 últimas.webp" alt="Foto da atriz Glória Pires">
+                    <h4>Ex-cozinheira processa Glória Pires e pede compensação milionária</h4>
+                </article>
+                <article>
+                    <img src="assets/4 últimas.webp" alt="Foto de um rapaz">
+                    <h4>Exames da Cedae mostram que tolueno está diminuindo na água</h4>
+                </article>
+                <article>
+                    <img src="assets/3 últimas.webp" alt="Foto de uma digital influencer">
+                    <h4>Influencer viraliza ao buscar ‘marido rico’ dentro de avião; vídeo</h4>
+                </article>
+                <article>
+                    <img src="assets/2 últimas.webp" alt="Foto de uma nuvem">
+                    <h4>Disco voador? Nuvem no formato do MAC chama atenção em Niterói</h4>
+                </article>
+                <article>
+                    <img src="assets/1 últimas.webp" alt="Foto da participante do BBB24 Bia">
+                    <h4>Bia toma punição e coloca a casa toda no ‘Tá com Nada’ novamente</h4>
+                </article>
+            </section>
+        </aside>
+
+        <section class="lastSection">
             <h3>Tags</h3>
             <button disabled="disabled">Meia maratona do Cristo</button>
             <button disabled="disabled">Effect Sport</button>
@@ -221,51 +266,8 @@
                 </article>
             </section>
         </section>
-
     </main>
 
-    <aside>
-        <section class="ad">
-            <figure>
-                <img src="assets/ads-300x250.webp" alt="banner do primeiro anúncio">
-            </figure>
-            <figure>
-                <img src="assets/ads-300x600.webp" alt="banner do segundo anúncio">
-            </figure>
-        </section>
-
-        <section class="lastNotices">
-            <h3>Últimas notícias</h3>
-            <article>
-                <img src="assets/7 últimas.webp" alt="Foto de Piruinha">
-                <h4>Julgamento do bicheiro Piruinha é adiado após pedido do MPRJ</h4>
-            </article>
-            <article>
-                <img src="assets/6 últimas.webp" alt="Imagem de uma torneira">
-                <h4>Vai faltar água em 14 bairros do Rio; saiba quem deve economizar</h4>
-            </article>
-            <article>
-                <img src="assets/5 últimas.webp" alt="Foto da atriz Glória Pires">
-                <h4>Ex-cozinheira processa Glória Pires e pede compensação milionária</h4>
-            </article>
-            <article>
-                <img src="assets/4 últimas.webp" alt="Foto de um rapaz">
-                <h4>Exames da Cedae mostram que tolueno está diminuindo na água</h4>
-            </article>
-            <article>
-                <img src="assets/3 últimas.webp" alt="Foto de uma digital influencer">
-                <h4>Influencer viraliza ao buscar ‘marido rico’ dentro de avião; vídeo</h4>
-            </article>
-            <article>
-                <img src="assets/2 últimas.webp" alt="Foto de uma nuvem">
-                <h4>Disco voador? Nuvem no formato do MAC chama atenção em Niterói</h4>
-            </article>
-            <article>
-                <img src="assets/1 últimas.webp" alt="Foto da participante do BBB24 Bia">
-                <h4>Bia toma punição e coloca a casa toda no ‘Tá com Nada’ novamente</h4>
-            </article>
-        </section>
-    </aside>
 
     <footer> <!--Iniciar footer ainda hoje.-->
         <nav class="navLinks">
