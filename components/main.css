@@ -1,4 +1,33 @@
-main{
-    max-width:1490px;
+main {
+    max-width: 1490px;
     display: flex;
+}
+
+.leftIcons {
+    position: absolute;
+    left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 240px;
+}
+
+.leftIcons>a {
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.firstBanner>img {
+    width: 728px;
+    height: 90px;
+}
+
+h1 {
+    width: 864px;
+    height: 113px;
+    text-align: left;
+    font: normal normal bold 44px/52px 'Poppins';
+    letter-spacing: 0px;
+    color: #101010;
 }

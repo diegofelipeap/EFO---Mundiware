@@ -10,10 +10,13 @@
     <title>Enfoco - O seu site de notícias</title>
 </head>
 <style>
+     @import url('./fonts/Poppins-Regular.ttf');
+
     * {
         margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
     }
 </style>
 
@@ -31,7 +34,7 @@
 
         <nav>
             <li>
-                <a href="#a" class="firstLinkColor">Esportes</a>
+                <a href="#a">Esportes</a>
                 <a href="#a">Capas</a>
                 <a href="#a">Polícia</a>
                 <a href="#a">Política</a>
@@ -72,25 +75,25 @@
     </header>
 
     <main>
+        <section class="leftIcons"> <!--ícones de redes sociais laterais-->
+            <a href="#facebook">
+                <img src="assets/facebook.webp" alt="ícone da rede social Facebook">
+            </a>
+            <a href="#instagram">
+                <img src="assets/instagram.webp" alt="ícone da rede social Instagram">
+            </a>
+            <a href="#x">
+                <img src="assets/x.webp" alt="ícone da rede social X">
+            </a>
+            <a href="#whatsapp">
+                <img src="assets/whatsapp.webp" alt="ícone da rede social Whatsapp">
+            </a>
+        </section>
+
         <article class="mainArticle">
             <section class="navigationLinks">
-                <a href="#">Home</a>
+                <a href="#">Home</a> >
                 <a href="#">Esportes</a>
-            </section>
-
-            <section> <!--ícones de redes sociais laterais-->
-                <a href="#facebook">
-                    <img src="assets/facebook.webp" alt="ícone da rede social Facebook">
-                </a>
-                <a href="#instagram">
-                    <img src="assets/instagram.webp" alt="ícone da rede social Instagram">
-                </a>
-                <a href="#x">
-                    <img src="assets/x.webp" alt="ícone da rede social X">
-                </a>
-                <a href="#whatsapp">
-                    <img src="assets/whatsapp.webp" alt="ícone da rede social Whatsapp">
-                </a>
             </section>
 
             <span>Quarta edição</span>
@@ -101,7 +104,7 @@
 
             <button>Ouça o artigo</button>
 
-            <figure>
+            <figure class="firstBanner">
                 <img src="assets/ads-728x90@2x.webp" alt="Banner de um anúncio">
             </figure>
 
@@ -226,53 +229,52 @@
                 </article>
             </section>
         </aside>
-
-        <section class="lastSection">
-            <h3>Tags</h3>
-            <button disabled="disabled">Meia maratona do Cristo</button>
-            <button disabled="disabled">Effect Sport</button>
-            <button disabled="disabled">Corcovado</button>
-
-            <div class="divTag">
-                <p>Siga o <a href="#Enfoco">Enfoco Site de Notícias</a> no Google e fique por dentro de tudo</p>
-                <figure>
-                    <img src="assets/7123018_news_google_icon.svg" alt="ícone do Google">
-                </figure>
-            </div>
-            <section>
-                <article>
-                    <p>Artigo anterior</p>
-                    <h3>Neymar e Bruna Marquezine 'juntos' na festa da Anitta</h3>
-                </article>
-                <article>
-                    <p>Próximo artigo</p>
-                    <h3>'Escreveu a sua história', celebra mulher do campeão Davi</h3>
-                </article>
-            </section>
-
-            <section>
-                <h4>Relacionados em <span>Esportes</span> <!--cor verde--></h4>
-                <article>
-                    <img src="assets/Retângulo 58.webp" alt="Foto de jogador do Fluminense de costas">
-                    <span>Tricolor</span> <!--cor verde-->
-                    <h5>Após empate, Fluminense busca a primeira vitória na Libertadores</h5>
-                </article>
-                <article>
-                    <img src="assets/Retângulo 58-1.webp" alt="Foto de jogadores do Fluminense">
-                    <span>Maracanã</span> <!--cor verde-->
-                    <h5>Fluminense: Martinelli é opção na zaga para jogo da Libertadores</h5>
-                </article>
-                <article>
-                    <img src="assets/Retângulo 58-2.webp" alt="imagem do Cristo Redentor e participantes de maratona">
-                    <span>Tricolor</span> <!--cor verde-->
-                    <h5>'Meia Maratona do Cristo': inscrições começam nesta quarta-feira</h5>
-                </article>
-            </section>
-        </section>
     </main>
 
+    <section class="lastSection">
+        <h3>Tags</h3>
+        <button disabled="disabled">Meia maratona do Cristo</button>
+        <button disabled="disabled">Effect Sport</button>
+        <button disabled="disabled">Corcovado</button>
 
-    <footer> <!--Iniciar footer ainda hoje.-->
+        <div class="divTag">
+            <p>Siga o <a href="#Enfoco">Enfoco Site de Notícias</a> no Google e fique por dentro de tudo</p>
+            <figure>
+                <img src="assets/7123018_news_google_icon.svg" alt="ícone do Google">
+            </figure>
+        </div>
+        <section>
+            <article>
+                <p>Artigo anterior</p>
+                <h3>Neymar e Bruna Marquezine 'juntos' na festa da Anitta</h3>
+            </article>
+            <article>
+                <p>Próximo artigo</p>
+                <h3>'Escreveu a sua história', celebra mulher do campeão Davi</h3>
+            </article>
+        </section>
+
+        <section>
+            <h4>Relacionados em <span>Esportes</span> <!--cor verde--></h4>
+            <article>
+                <img src="assets/Retângulo 58.webp" alt="Foto de jogador do Fluminense de costas">
+                <span>Tricolor</span> <!--cor verde-->
+                <h5>Após empate, Fluminense busca a primeira vitória na Libertadores</h5>
+            </article>
+            <article>
+                <img src="assets/Retângulo 58-1.webp" alt="Foto de jogadores do Fluminense">
+                <span>Maracanã</span> <!--cor verde-->
+                <h5>Fluminense: Martinelli é opção na zaga para jogo da Libertadores</h5>
+            </article>
+            <article>
+                <img src="assets/Retângulo 58-2.webp" alt="imagem do Cristo Redentor e participantes de maratona">
+                <span>Tricolor</span> <!--cor verde-->
+                <h5>'Meia Maratona do Cristo': inscrições começam nesta quarta-feira</h5>
+            </article>
+        </section>
+    </section>
+
+    <footer>
         <nav class="navLinks">
             <li>
                 <p>Editorias</p>

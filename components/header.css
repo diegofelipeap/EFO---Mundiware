@@ -21,6 +21,7 @@ header {
 header>nav:first-child {
     /*Verificar espaçamento*/
     margin-top: 18px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     gap: 350px;
@@ -64,26 +65,48 @@ header>nav>li {
     list-style: none;
     display: flex;
     justify-content: center;
-    border-top: 1px solid #dcdcdc;
-    border-bottom: 2px solid #dcdcdc;
+    /*box-shadow: 0px 5px 10px #00000033;*/
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
 }
 
 header nav li>a {
     text-decoration: none;
     margin: 16px 35px;
     color: #2E2E2E;
+
 }
 
-.firstLinkColor {
-    width: 68px;
-    height: 23px;
+header nav li>a:first-child {
+    width: 98px;
+    height: 33px;
     background: #1D8108 0% 0% no-repeat padding-box;
     border-radius: 90px;
+    color: white;
     text-align: center;
-
 }
 
 header section,
 header>section>article {
     display: flex;
+}
+
+header>section {
+    margin-top: 22px;
+}
+
+header>section>article>img {
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+}
+
+section>article>h3 {
+    width: 216px;
+    height: 63px;
+    text-align: left;
+    font: normal normal normal 16px;
+    letter-spacing: 0px;
+    color: #2E2E2E;
+    margin-left: 14px;
 }
