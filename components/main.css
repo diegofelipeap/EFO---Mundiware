@@ -18,6 +18,18 @@ main {
     height: 40px;
 }
 
+.navigationLinks, .navigationLinks a {
+    width: 116px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 14px 'Poppins';
+    letter-spacing: 0px;
+    color: #101010;
+    margin-left: 0;
+    text-decoration: none;
+    margin-top: 34px;
+}
+
 .firstBanner>img {
     width: 728px;
     height: 90px;
@@ -27,7 +39,8 @@ h1 {
     width: 864px;
     height: 113px;
     text-align: left;
-    font: normal normal bold 44px/52px 'Poppins';
+    font: normal normal bold 44px 'Poppins';
     letter-spacing: 0px;
     color: #101010;
+    margin-left: 0;
 }
