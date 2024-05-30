@@ -61,7 +61,7 @@ header>nav>img {
     top: 12px;
 }
 
-header>nav>li {
+nav>ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -69,72 +69,43 @@ header>nav>li {
     /*box-shadow: 0px 5px 10px #00000033;*/
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
-
 }
 
-header nav li>a {
-    text-decoration: none;
+li {
     margin: 16px 30px;
+    text-decoration: none;
+}
+
+nav li>a {
+    text-decoration: none;
     color: #2E2E2E;
 }
 
-header nav li>a:first-child {
-    width: 68px;
-    height: 23px;
+.firstList {
     background: #1D8108 0% 0% no-repeat padding-box;
     border-radius: 90px;
-    color: white;
-    text-align: center;
+    width: 98px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav li a:nth-child(2):hover {
-    background: blue;
-    /* Capas */
+.firstLink {
+    text-align: left;
+    font: normal normal normal 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
 }
 
-nav li a:nth-child(3):hover {
-    background-color: green;
-    /* Polícia */
-}
-
-nav li a:nth-child(4):hover {
-    color: orange;
-    /* Política */
-}
-
-nav li a:nth-child(5):hover {
-    color: purple;
-    /* Cidades */
-}
-
-nav li a:nth-child(6):hover {
-    color: pink;
-    /* Brasil & Mundo */
-}
-
-nav li a:nth-child(7):hover {
-    color: yellow;
-    /* Entretimento */
-}
-
-nav li a:nth-child(8):hover {
-    color: cyan;
-    /* Colunistas */
-}
-
-nav li a:nth-child(9):hover {
-    color: magenta;
-    /* Webstories */
-}
-
-nav li a:nth-child(10):hover {
-    color: lime;
-    /* Tá bombando! */
-}
-
-nav li a:nth-child(11):hover {
-    color: brown;
-    /* Vídeos */
+ul>li:nth-child(2):hover {
+    background: #1D4D58 0% 0% no-repeat padding-box;
+    border-radius: 90px;
+    width: 83px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header section,
