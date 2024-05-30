@@ -5,7 +5,8 @@ main {
 
 .leftIcons {
     position: absolute;
-    left: 2.5%;
+    left: 5vw;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
