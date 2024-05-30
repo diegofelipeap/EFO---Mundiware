@@ -11,17 +11,14 @@ footer {
 
 .footerLinks ul:nth-child(2) {
     margin-top: -20px;
-    /* Sobe as <ul> em 10px */
 }
 
 .footerLinks ul:nth-child(3) {
     margin-top: -45px;
-    /* Sobe as <ul> em 10px */
 }
 
 .footerLinks ul:nth-child(4) {
     margin-top: -65px;
-    /* Sobe as <ul> em 10px */
 }
 
 .footerLinks ul>li,
