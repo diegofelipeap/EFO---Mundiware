@@ -68,7 +68,7 @@ nav>::-webkit-scrollbar {
     display: none;
 }
 
-nav>ul {
+header>nav>ul {
     list-style: none;
     display: flex;
     align-items: center;
@@ -145,6 +145,8 @@ li a:hover {
 
 .item9:hover {
     background-color: #BD5B07;
+    border-radius: 90px;
+    transition: 0.3s ease;
 }
 
 .item10:hover {

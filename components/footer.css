@@ -1,0 +1,107 @@
+footer {
+    background-color: #040406;
+    color: #FFFFFF;
+    height: 486px;
+    margin-top: 50px;
+}
+
+.footerLinks>ul {
+    margin-top: 36px;
+}
+
+.footerLinks ul:nth-child(2) {
+    margin-top: -20px;
+    /* Sobe as <ul> em 10px */
+}
+
+.footerLinks ul:nth-child(3) {
+    margin-top: -45px;
+    /* Sobe as <ul> em 10px */
+}
+
+.footerLinks ul:nth-child(4) {
+    margin-top: -65px;
+    /* Sobe as <ul> em 10px */
+}
+
+.footerLinks ul>li,
+.footerLinks ul>p {
+    list-style: none;
+}
+
+.footerLinks li>p {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.footerLinks li>a {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footerIcons {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.footerIcons>a {
+    background-color: #FFFFFF;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-flex;
+}
+
+.footerIcons>a>img {
+    width: auto;
+}
+
+.Facefooter {
+    padding: 10px 14px;
+}
+
+.instaFooter {
+    padding: 8px;
+}
+
+.xFooter {
+    padding: 11px 9px 10px 10px;
+}
+
+.tubeFooter {
+    padding: 11px 7px;
+}
+
+.ajor {
+    border-radius: 10px;
+    width: 154px;
+    height: 103px;
+    margin-top: 31px;
+    margin-bottom: 79.43px;
+}
+
+.logoEnterprise {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoMundiware {
+    width: 133px;
+    height: 23px;
+    margin-bottom: 16.18px;
+}
+
+.logoGolab {
+    width: 135px;
+    height: 28px;
+}
+
+.secCaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
