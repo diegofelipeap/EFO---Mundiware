@@ -10,15 +10,15 @@ footer {
 }
 
 .footerLinks ul:nth-child(2) {
-    margin-top: -20px;
+    margin-top: -36px;
 }
 
 .footerLinks ul:nth-child(3) {
-    margin-top: -45px;
+    margin-top: -66px;
 }
 
 .footerLinks ul:nth-child(4) {
-    margin-top: -65px;
+    margin-top: -100px;
 }
 
 .footerLinks ul>li,

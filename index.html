@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="components/header.css">
     <link rel="stylesheet" href="components/main.css">
+    <link rel="stylesheet" href="components/article.css">
     <link rel="stylesheet" href="components/aside.css">
     <link rel="stylesheet" href="components/footer.css">
     <title>Enfoco - O seu site de notícias</title>
 </head>
 <style>
-    @import url('./fonts/Poppins-Regular.ttf');
+    @font-face {
+        font-family: 'poppins_regular';
+        src: url(fonts/Poppins-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: 'poppins_bold';
+        src: url(fonts/Poppins-Bold.ttf);
+    }
 
     * {
         margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'poppins_regular', sans-serif;
     }
 </style>
 
@@ -50,7 +59,7 @@
         </nav>
 
         <section class="slider"> <!-- Slider e Navbar inicial-->
-            <article> <!--Aplicação de hierarquia falhando.-->
+            <article>
                 <img src="./assets/Retângulo 55.webp" alt="Foto do cantor Roberto Carlos">
                 <p>Roberto Carlos em Niterói: ingressos mais caros já acabaram</p>
             </article>
@@ -93,23 +102,23 @@
 
         <article class="mainArticle">
             <section class="navigationLinks">
-                <a href="#">Home</a> >
-                <a href="#">Esportes</a>
+                <a href="#">Home</a> > <a href="#">Esportes</a>
             </section>
 
-            <span>Quarta edição</span>
+            <span class="firstSpan">Quarta edição</span>
 
             <h1>'Meia Maratona do Cristo': inscrições começam nesta quarta-feira</h1>
             <h2>Trajeto inclui passagem por outros cartões postais do Rio</h2>
-            <p>Publicado 27 de março de 2024 às 08:48 h | Atualizado em 27/03/2024, 08:48 | Autor: Enfoco</p>
+            <p class="firstP">Publicado 27 de março de 2024 às 08:48 h | Atualizado em 27/03/2024, 08:48 | Autor: Enfoco
+            </p>
 
-            <button>Ouça o artigo</button>
-
+            <button class="btnArticle">Ouça o artigo</button>
+            <!--Aplicar ícone no botão: <img src="assets/play-svgrepo-com.svg" alt="ícone de play"> -->
             <figure class="firstBanner">
                 <img src="assets/ads-728x90@2x.webp" alt="Banner de um anúncio">
             </figure>
 
-            <figure>
+            <figure class="mainImgArticle">
                 <img src="assets/Retângulo 29.webp" alt="Foto principal do site">
                 <figcaption>A chegada da corrida será aos pés do Cristo Redentor | Foto: Divulgação/Effect Sport
                 </figcaption>
@@ -132,7 +141,7 @@
                 <img src="assets/quote-svgrepo-com-1.svg" alt="ícone de aspas duplas para baixo">
             </div>
             <figure>
-                <img src="assets/ads-728x90@2x.webp" alt="Banner de um anúncio">
+                <img src="assets/ads-728x90@2x.webp" alt="Banner de um anúncio" class="firstBanner">
             </figure>
 
             <p>Em alusão aos percursos do evento, 10 km e 21 km, a abertura das vendas acontece às 10h21 para quem
@@ -193,7 +202,7 @@
                     <img src="assets/ads-300x250.webp" alt="banner do primeiro anúncio">
                 </figure>
                 <figure>
-                    <img src="./assets/ads-300x600.webp">
+                    <img src="assets/ads-300x600@2x.webp" alt="banner do segundo anúncio">
                 </figure>
             </section>
 
@@ -337,8 +346,10 @@
 
             <section>
                 <div class="footerIcons">
-                    <a href="#facebook"><img src="assets/facebook-1.svg" alt="ícone do Facecbook" class="Facefooter"></a>
-                    <a href="#insta"><img src="./assets/instagram-1.svg" alt="ícone do Instagram" class="instaFooter"></a>
+                    <a href="#facebook"><img src="assets/facebook-1.svg" alt="ícone do Facecbook"
+                            class="Facefooter"></a>
+                    <a href="#insta"><img src="./assets/instagram-1.svg" alt="ícone do Instagram"
+                            class="instaFooter"></a>
                     <a href="#x"><img src="./assets/x-1.svg" alt="ícone do X" class="xFooter"></a>
                     <a href="#youtube"><img src="assets/youtube-logo.svg" alt="ícone do Youtube" class="tubeFooter"></a>
                 </div>
