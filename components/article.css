@@ -126,3 +126,101 @@ h2 {
     letter-spacing: 0.13px;
     color: #0A73CD;
 }
+
+.firstQuote {
+    width: 620px;
+    height: 182px;
+    background: #139933 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #0000001A;
+    border-radius: 12px;
+}
+
+.firstQuote>blockquote>h4 {
+    color: #FFFFFF;
+    width: 496px;
+    height: 103px;
+    text-align: center;
+    font: normal normal bold 28px 'poppins_bold';
+    letter-spacing: 0px;
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+cite {
+    text-align: center;
+    font: normal normal normal 16px 'poppins_bold';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.secondQuote {
+    width: 620px;
+    height: 239px;
+    background: #139933 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #0000001A;
+    border-radius: 12px;
+}
+
+.secondQuote>h4 {
+    width: 580px;
+    height: 199px;
+    text-align: left;
+    font: normal normal bold 24px 'poppins_bold';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+h3 {
+    text-align: left;
+    font: normal normal bold 26px 'poppins_bold';
+    letter-spacing: 0.16px;
+    color: #2E2E2E;
+}
+
+form {
+    width: 480px;
+    height: 286px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #0000001A;
+    border: 1px solid #EFEFEF;
+    border-radius: 12px;
+}
+
+form>h4 {
+    width: 292px;
+    height: 63px;
+    text-align: left;
+    margin-left: 22px;
+    margin-bottom: 18px;
+    font: normal normal bold 24px 'poppins_bold';
+    letter-spacing: 0px;
+    color: #139933;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+form>div>.inputs {
+    display: flex;
+    margin-left: 22px;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+form>button {
+    margin-top: 8px;
+    margin-left: 22px;
+    width: 436px;
+    height: 42px;
+    background: #139933 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    text-align: left;
+    padding-left: 22px;
+    font: normal normal bold 16px 'poppins_bold';
+    cursor: pointer;
+}
