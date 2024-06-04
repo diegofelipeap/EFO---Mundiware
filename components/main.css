@@ -1,8 +1,9 @@
 main {
     max-width: 1490px;
+}
+.flexArticle{
     display: flex;
 }
-
 .leftIcons {
     position: absolute;
     left: 5vw;

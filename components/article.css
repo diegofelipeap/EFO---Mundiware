@@ -7,7 +7,6 @@
     width: 864px;
     margin: 34px 0;
 }
-
 .navigationLinks,
 .navigationLinks a {
     width: 136px;
@@ -35,12 +34,11 @@
     letter-spacing: 0px;
     color: #139933;
     font-weight: bold;
-    margin-bottom: 16px;
 }
 
 h1 {
     font-family: 'poppins_bold';
-    margin-bottom: 16px;
+    margin: 16px 0;
 }
 
 h2 {
@@ -133,6 +131,26 @@ h2 {
     background: #139933 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
+    margin-top: 64px;
+    margin-bottom: 34px;
+}
+
+.quotationMark01 {
+    position: relative;
+    top: 18px;
+    left: 18px;
+}
+
+.quotationMark02 {
+    position: relative;
+    left: 568px;
+    bottom: 28px;
+}
+
+.firstQuote>blockquote {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .firstQuote>blockquote>h4 {
@@ -142,13 +160,11 @@ h2 {
     text-align: center;
     font: normal normal bold 28px 'poppins_bold';
     letter-spacing: 0px;
-    margin-left: 62px;
-    margin-right: 62px;
+    margin: -5px auto;
 }
 
 cite {
-    text-align: center;
-    font: normal normal normal 16px 'poppins_bold';
+    font: normal normal normal 16px 'poppins_regular';
     letter-spacing: 0px;
     color: #FFFFFF;
 }
@@ -191,8 +207,7 @@ form>h4 {
     width: 292px;
     height: 63px;
     text-align: left;
-    margin-left: 22px;
-    margin-bottom: 18px;
+    margin:22px 0 18px 22px;
     font: normal normal bold 24px 'poppins_bold';
     letter-spacing: 0px;
     color: #139933;
