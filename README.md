@@ -35,11 +35,9 @@ git clone https://github.com/seu-usuario/EFO---Mundiware.git
 - **fonts/**: O diretório que contém todas as fontes Poppins disponíveis.
 
 ## Tecnologias Utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-- Fonte Poppins ( Bold, Regular)
+![image](https://github.com/diegofelipeap/Game-Jokenpo/assets/78945288/83cdf6b1-1c69-4676-85b6-e573bff9d440)
+![image](https://github.com/diegofelipeap/Game-Jokenpo/assets/78945288/d9c59257-a15d-49c7-8f56-4f43c6f24458)
+![image](https://github.com/diegofelipeap/Game-Jokenpo/assets/78945288/85381284-5ffe-4212-91fc-746f190744a5)
 
 ## Autor
 
