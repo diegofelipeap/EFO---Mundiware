@@ -1,28 +1,44 @@
 @media screen and (max-width:768px) {
     body {
-        max-width: 768px;
+        width: 360px;
     }
 
     header>nav>img {
         width: 190px;
         height: 42px;
-        margin: 0;
-        display: grid;
-        justify-self: right;
-        grid-area: logo;
+        display: flex;
+        position: absolute;
+        right: 1000px;
     }
 
     .buttonBurger {
-        display: grid;
-        justify-self: right;
-        grid-area: btn;
+        display: flex;
     }
 
     .inputContainer {
-        display: grid;
-        grid-area: input;
         width: 320px;
         height: 38px;
+    }
+
+ 
+
+    .flexArticle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainArticle {
+        width: 360px;
+    }
+
+    figcaption {
+        width: 320px;
+        height: 33px;
+    }
+
+    .firstBanner {
+        width: 320px;
+        height: 100px;
     }
 
     nav:first-child {
@@ -31,6 +47,7 @@
             "logo logo btn"
             "input input input";
     }
+
     h1 {
         width: 320px;
         height: 151px;
@@ -39,21 +56,20 @@
         letter-spacing: 0px;
         color: #101010;
     }
-    
+
     h2 {
         width: 320px;
         height: 49px;
         margin-left: 0;
     }
-    
+
     .normalParagraph {
-        width: 320px;
         height: 387px;
         text-align: left;
         font: normal normal normal 16px'poppins_regular';
         letter-spacing: 0.1px;
     }
-    
+
     .mainImgArticle>img {
         width: 320px;
         height: 244px;
