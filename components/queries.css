@@ -3,25 +3,93 @@
         width: 360px;
     }
 
-    header>nav>img {
-        width: 190px;
-        height: 42px;
-        display: flex;
-        position: absolute;
-        right: 1000px;
+    nav {
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 10px;
+    }
+
+    .buttonBurger,
+    nav>img {
+        grid-row: 1;
     }
 
     .buttonBurger {
-        display: flex;
+        grid-column: 1;
+        position: relative;
+        top: -5px;
+        right: 35px;
+    }
+
+    nav>img {
+        grid-column: 2;
+    }
+
+    header>nav>img {
+        width: 190px;
+        height: 42px;
+        display: grid;
+        position: absolute;
+        left: -330px;
+        top: 15px;
     }
 
     .inputContainer {
-        width: 320px;
+        grid-row: 2;
+        position: relative;
+        right: 180px;
+        top: 5px;
+    }
+
+    .inputContainer input {
+        margin-right: 5px;
+        width: 370px;
         height: 38px;
     }
 
- 
+    .inputContainer>input::placeholder {
+        font-size: 12px;
+    }
 
+    .inputContainer>img {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        transform: translateY(-50%);
+        right: 17%;
+        top: 12px;
+    }
+
+    nav:first-child {
+        display: grid;
+        grid-template-areas:
+            "logo logo btn"
+            "input input input";
+    }
+
+    .slider {
+        display: none;
+    }
+
+    header>nav>ul {
+        list-style: none;
+        display: flex;
+        width: 978px;
+        height: 26px;
+        padding: 25px;
+        border-top: 1px solid #DDDDDD;
+        border-bottom: 1px solid #DDDDDD;
+        margin-left: 0;
+    }
+    header>nav>ul>li{
+        padding: 14px;
+    }
+
+    li>a {
+        font-size: 14px;
+    }
+
+    /* Artigo principal:*/
     .flexArticle {
         display: flex;
         flex-direction: column;
@@ -34,6 +102,7 @@
     figcaption {
         width: 320px;
         height: 33px;
+        margin-left: 0;
     }
 
     .firstBanner {
@@ -41,12 +110,7 @@
         height: 100px;
     }
 
-    nav:first-child {
-        display: grid;
-        grid-template-areas:
-            "logo logo btn"
-            "input input input";
-    }
+
 
     h1 {
         width: 320px;
