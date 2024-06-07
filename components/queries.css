@@ -81,7 +81,8 @@
         border-bottom: 1px solid #DDDDDD;
         margin-left: 0;
     }
-    header>nav>ul>li{
+
+    header>nav>ul>li {
         padding: 14px;
     }
 
@@ -90,6 +91,16 @@
     }
 
     /* Artigo principal:*/
+
+    .leftIcons {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        position: absolute;
+        bottom: 37px;
+        left: 210px;
+    }
+
     .flexArticle {
         display: flex;
         flex-direction: column;
