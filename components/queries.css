@@ -197,10 +197,15 @@
 
     .mainArticle>.normalParagraph {
         width: 320px;
-        height: 387px;
+        height: 330px;
         text-align: left;
         font: normal normal normal 16px'poppins_regular';
         letter-spacing: 0.1px;
+    }
+
+    .normalParagraph:nth-of-type(5) {
+        width: 320px;
+        height: 229px;
     }
 
     .mainImgArticle>img {
@@ -211,6 +216,7 @@
     .firstQuote {
         width: 320px;
         height: 158px;
+        margin-left: 0;
     }
 
     .quotationMark01 {
@@ -241,9 +247,17 @@
         font-size: 12px;
     }
 
+    .mobileBanner02 {
+        display: block;
+        width: 300px;
+        height: 250px;
+        margin-left: 0;
+    }
+
     .secondQuote {
         width: 320px;
         height: 340px;
+        margin-left: 0;
     }
 
     .secondQuote>h4 {
@@ -251,5 +265,113 @@
         height: 220px;
         text-align: left;
         font-size: 20px;
+    }
+
+    iframe {
+        width: 320px;
+        height: 180px;
+        border-radius: 8px;
+    }
+
+
+    form {
+        width: 320px;
+        height: 269px;
+        margin-left: 0;
+    }
+
+    form>h4 {
+        width: 288px;
+        height: 59px;
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    form>button {
+        width: 288px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .lastSection>button:nth-child(2) {
+        margin-bottom: 6px;
+    }
+
+    .divTag {
+        width: 300px;
+        height: 114px;
+        margin: auto;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .divTag>p {
+        padding: 13px;
+    }
+
+    .divTag>figure {
+        position: relative;
+        bottom: 94px;
+        left: 270px;
+    }
+
+    .divTag>figure>img {
+        width: 49px;
+        height: 42px;
+    }
+
+    .toggleArticles {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -250px;
+        margin: 0;
+    }
+
+    .toggleArticles>article {
+        width: 320px;
+        height: 101px;
+        margin-top: 30px;
+    }
+
+    .toggleArticles>article>p:nth-child(2) {
+        font-size: 15px;
+        width: 254px;
+        height: 45px;
+    }
+
+    .lastArticles>h5,
+    span {
+        width: 168px;
+        height: 33px;
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+
+    .lastArticles>div {
+        /*Revisar alinhamento*/
+        display: flex;
+        flex-direction: column;
+        margin-right: 300px;
+    }
+
+    .mobileLastNotices {
+        display: flex;
+    }
+
+    .mobilesectionNotices {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobilesectionNotices>article {
+        display: flex;
     }
 }
