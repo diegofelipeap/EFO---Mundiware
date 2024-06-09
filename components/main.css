@@ -1,6 +1,10 @@
 main {
     max-width: 1490px;
 }
+
+.mobileBtn{
+    display: none;
+}
 .flexArticle{
     display: flex;
 }

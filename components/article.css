@@ -27,6 +27,9 @@
     font-family: 'poppins_regular';
 }
 
+.mobileBanner{
+    display: none;
+}
 .firstSpan {
     font-size: 18px;
     font-family: 'poppins_regular', sans-serif;
