@@ -362,6 +362,14 @@
         margin-right: 300px;
     }
 
+    .lastArticles>div>article>img:nth-child(1) {
+        width: 320px;
+        height: 190px;
+        /* Revisar Imagens no XD */
+        background: transparent url('img/Retângulo 57.png') 0% 0% no-repeat padding-box;
+        border-radius: 12px;
+    }
+
     .mobileLastNotices {
         display: flex;
     }
