@@ -27,9 +27,11 @@
     font-family: 'poppins_regular';
 }
 
-.mobileBanner,.mobileBanner02{
+.mobileBanner,
+.mobileBanner02 {
     display: none;
 }
+
 .firstSpan {
     font-size: 18px;
     font-family: 'poppins_regular', sans-serif;
@@ -182,19 +184,14 @@ cite {
     color: #FFFFFF;
 }
 
-mark {
+mark>h4 {
     width: 620px;
     height: 239px;
-    background-color: #139933 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 15px #0000001A;
     border-radius: 12px;
-}
-
-.secondQuote>h4 {
-    width: 580px;
-    height: 199px;
+    background-color: #139933;
     text-align: left;
-    font: normal normal bold 25px 'poppins_bold';
+    font: normal normal bold 26px 'poppins_bold';
     letter-spacing: 0px;
     color: #FFFFFF;
     padding: 20px;

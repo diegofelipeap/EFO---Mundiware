@@ -247,24 +247,21 @@
         font-size: 12px;
     }
 
+    mark>h4 {
+        width: 320px;
+        height: 252px;
+        text-align: left;
+        font: normal normal bold 18px 'poppins_bold';
+        color: #FFFFFF;
+        padding: 20px;
+        margin-left: 0;
+    }
+
     .mobileBanner02 {
         display: block;
         width: 300px;
         height: 250px;
         margin-left: 0;
-    }
-
-    .secondQuote {
-        width: 320px;
-        height: 340px;
-        margin-left: 0;
-    }
-
-    .secondQuote>h4 {
-        width: 288px;
-        height: 220px;
-        text-align: left;
-        font-size: 20px;
     }
 
     iframe {
