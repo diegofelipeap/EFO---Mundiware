@@ -370,7 +370,13 @@
         border-radius: 12px;
     }
 
-    .mobileLastNotices {
+    .tittleMobileContainer {
+        width: 221px;
+        margin: 32px auto 16px 0;
+        text-align: left;
+    }
+
+    .mobileContainerArticles {
         display: flex;
     }
 
@@ -381,5 +387,15 @@
 
     .mobilesectionNotices>article {
         display: flex;
+        margin-top: 16px;
+    }
+
+    .mobilesectionNotices>article>img {
+        width: 130px;
+        height: 130px;
+    }
+
+    footer {
+        width: 100vw;
     }
 }
