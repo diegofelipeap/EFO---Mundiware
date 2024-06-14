@@ -395,4 +395,15 @@
     footer {
         width: 100vw;
     }
+
+    .footerLinks>ul {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    /*Estudar como aplicar o footer menu na versão mobile.*/
+    .footerLinks>ul>li:not(.listTittle) {
+        display: none;
+    }
+
 }
