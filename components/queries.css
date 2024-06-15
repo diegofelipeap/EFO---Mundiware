@@ -67,7 +67,7 @@
             "input input input";
     }
 
-    .slider {
+    .efo-articles {
         display: none;
     }
 
@@ -122,7 +122,7 @@
         margin: 8.53px 8.53px 9.16px 10.31px;
     }
 
-    .leftIcons {
+    .wrap-icons {
         display: flex;
         flex-direction: row;
         position: fixed;
@@ -149,7 +149,7 @@
         margin: 16px 10px 24px;
     }
 
-    .flexArticle {
+    .container-flex {
         display: flex;
         flex-direction: column;
     }

@@ -5,10 +5,10 @@ main {
 .mobileBtn{
     display: none;
 }
-.flexArticle{
+.container-flex{
     display: flex;
 }
-.leftIcons {
+.wrap-icons {
     position: absolute;
     left: 5vw;
     margin-top: 25px;
@@ -18,7 +18,7 @@ main {
     height: 240px;
 }
 
-.leftIcons>a {
+.wrap-icons>a {
     justify-content: center;
     width: 40px;
     height: 40px;

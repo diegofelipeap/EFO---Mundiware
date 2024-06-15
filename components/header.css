@@ -177,14 +177,14 @@ li a:hover {
 }
 
 
-.slider {
+.efo-articles {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 88vw;
 }
 
-.slider>article {
+.efo-articles>article {
     display: flex;
     justify-content: center;
     margin: 18px 0;
