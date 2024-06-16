@@ -1,15 +1,15 @@
-.mainArticle {
+.efo-container {
     width: 950px;
     /*Verificar futuramente.*/
 }
 
-.mainArticle>p {
+.efo-container>p {
     width: 864px;
     margin: 34px 0;
 }
 
-.navigationLinks,
-.navigationLinks a {
+.breadcrumb,
+.breadcrumb a {
     width: 136px;
     height: 20px;
     text-align: left;
@@ -21,7 +21,7 @@
     margin-bottom: 30px;
 }
 
-.navigationLinks>a {
+.breadcrumb>a {
     text-decoration: underline;
     font-size: 14px;
     font-family: 'poppins_regular';
@@ -108,7 +108,7 @@ h2 {
     height: 90px;
 }
 
-.normalParagraph {
+.major-text {
     width: 864px;
     height: 191px;
     text-align: left;

@@ -9,12 +9,12 @@
         gap: 10px;
     }
 
-    .buttonBurger,
+    .header-button,
     nav>img {
         grid-row: 1;
     }
 
-    .buttonBurger {
+    .header-button {
         grid-column: 1;
         position: relative;
         top: -5px;
@@ -34,24 +34,24 @@
         top: 15px;
     }
 
-    .inputContainer {
+    .input-container {
         grid-row: 2;
         position: relative;
         right: 180px;
         top: 5px;
     }
 
-    .inputContainer input {
+    .input-container input {
         margin-right: 5px;
         width: 370px;
         height: 38px;
     }
 
-    .inputContainer>input::placeholder {
+    .input-container>input::placeholder {
         font-size: 12px;
     }
 
-    .inputContainer>img {
+    .input-container>img {
         width: 18px;
         height: 18px;
         position: relative;
@@ -92,7 +92,7 @@
 
     /* Artigo principal:*/
 
-    .mobileBtn {
+    .mobile-button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -108,7 +108,7 @@
     }
 
 
-    .mobileBtn>a {
+    .mobile-button>a {
         width: 28px;
         height: 28px;
         background: #139933 0% 0% no-repeat padding-box;
@@ -116,7 +116,7 @@
         margin-right: 0.89px;
     }
 
-    .mobileBtn>a>img {
+    .mobile-button>a>img {
         width: 9px;
         height: 10px;
         margin: 8.53px 8.53px 9.16px 10.31px;
@@ -154,7 +154,7 @@
         flex-direction: column;
     }
 
-    .mainArticle {
+    .efo-container {
         width: 360px;
     }
 
@@ -195,7 +195,7 @@
         border-bottom: none;
     }
 
-    .mainArticle>.normalParagraph {
+    .efo-container>.major-text {
         width: 320px;
         height: 330px;
         text-align: left;
@@ -203,7 +203,7 @@
         letter-spacing: 0.1px;
     }
 
-    .normalParagraph:nth-of-type(5) {
+    .major-text:nth-of-type(5) {
         width: 320px;
         height: 229px;
     }

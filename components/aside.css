@@ -19,7 +19,7 @@ aside {
     cursor: pointer;
 }
 
-.lastNotices>h3 {
+.efo-wrap-notices>h3 {
     height: 45px;
     text-align: left;
     font: normal normal bold 32px'poppins_bold';
@@ -27,20 +27,20 @@ aside {
     margin: 34px 0 24px;
 }
 
-.lastNotices>article {
+.efo-wrap-notices>article {
     display: flex;
     gap: 16px;
     margin: 20px 0;
 }
 
-.lastNotices>article>img {
+.efo-wrap-notices>article>img {
     width: 106px;
     height: 101px;
     border-radius: 12px;
     cursor: pointer;
 }
 
-.lastNotices>article>p {
+.efo-wrap-notices>article>p {
     width: 178px;
     height: 83px;
     text-align: left;

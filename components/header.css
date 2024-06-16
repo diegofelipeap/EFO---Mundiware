@@ -3,7 +3,7 @@ header {
     width: 1490px;
 }
 
-.buttonBurger {
+.header-button {
     width: 44px;
     height: 44px;
     background: #000000 0% 0% no-repeat padding-box;
@@ -12,7 +12,7 @@ header {
     opacity: 1;
 }
 
-.buttonBurger>img {
+.header-button>img {
     width: 20px;
     height: 16px;
     display: flex;
@@ -37,7 +37,7 @@ header>nav>img {
     cursor: pointer;
 }
 
-.inputContainer>input {
+.input-container>input {
     background: #E9E9E9 0% 0% no-repeat padding-box;
     width: 261px;
     height: 42px;
@@ -46,7 +46,7 @@ header>nav>img {
     outline: none;
 }
 
-.inputContainer>input::placeholder {
+.input-container>input::placeholder {
     padding-left: 20px;
     width: 110px;
     height: 23px;
@@ -55,7 +55,7 @@ header>nav>img {
     color: #2E2E2E;
 }
 
-.inputContainer>img {
+.input-container>img {
     width: 18px;
     height: 18px;
     position: relative;

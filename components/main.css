@@ -2,12 +2,14 @@ main {
     max-width: 1490px;
 }
 
-.mobileBtn{
+.mobile-button {
     display: none;
 }
-.container-flex{
+
+.container-flex {
     display: flex;
 }
+
 .wrap-icons {
     position: absolute;
     left: 5vw;
@@ -200,6 +202,6 @@ h5>span {
     letter-spacing: 0px;
 }
 
-.mobileContainerArticles{
+.mobileContainerArticles {
     display: none;
 }
