@@ -5,35 +5,35 @@ footer {
     margin-top: 50px;
 }
 
-.footerLinks>ul {
+.efo-footer-nav>ul {
     margin-top: 36px;
 }
 
-.footerLinks ul:nth-child(2) {
+.efo-footer-nav ul:nth-child(2) {
     margin-top: -36px;
 }
 
-.footerLinks ul:nth-child(3) {
+.efo-footer-nav ul:nth-child(3) {
     margin-top: -66px;
 }
 
-.footerLinks ul:nth-child(4) {
+.efo-footer-nav ul:nth-child(4) {
     margin-top: -100px;
 }
 
-.footerLinks ul>li,
-.footerLinks ul>p {
+.efo-footer-nav ul>li,
+.efo-footer-nav ul>p {
     list-style: none;
 }
 
-.footerLinks li>p {
+.efo-footer-nav li>p {
     color: #FFFFFF;
     margin-bottom: 10px;
     font-size: 20px;
     text-align: left;
 }
 
-.footerLinks li>a {
+.efo-footer-nav li>a {
     color: #FFFFFF;
     font-size: 16px;
     margin-bottom: 10px;

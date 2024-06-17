@@ -86,14 +86,14 @@ h2 {
 }
 
 
-.button-play>a {
+.button-play>div {
     width: 38px;
     height: 38px;
     background: #139933 0% 0% no-repeat padding-box;
     border-radius: 31px;
 }
 
-.button-play>a>img {
+.button-play>div>img {
     width: 12px;
     height: 14px;
     margin: 11.98px 11.98px 12.24px 13.77px;

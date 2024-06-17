@@ -71,7 +71,7 @@
         display: none;
     }
 
-    header>nav>ul {
+    header>.breadcrumb-navigation>ul {
         list-style: none;
         display: flex;
         width: 978px;
@@ -82,7 +82,7 @@
         margin-left: 0;
     }
 
-    header>nav>ul>li {
+    header>.breadcrumb-navigation>ul>li {
         padding: 14px;
     }
 
@@ -108,7 +108,7 @@
     }
 
 
-    .mobile-button>a {
+    .mobile-button>div {
         width: 28px;
         height: 28px;
         background: #139933 0% 0% no-repeat padding-box;
@@ -116,7 +116,7 @@
         margin-right: 0.89px;
     }
 
-    .mobile-button>a>img {
+    .mobile-button>div>img {
         width: 9px;
         height: 10px;
         margin: 8.53px 8.53px 9.16px 10.31px;
@@ -187,7 +187,7 @@
         font-size: 18px;
     }
 
-    .publication-date{
+    .publication-date {
         width: 320px;
         font-size: 12px;
         letter-spacing: 0px;
@@ -297,11 +297,11 @@
         display: none;
     }
 
-    .lastSection>button:nth-child(2) {
+    .efo-last-section>button:nth-child(2) {
         margin-bottom: 6px;
     }
 
-    .divTag {
+    .efo-tag {
         width: 300px;
         height: 114px;
         margin: auto;
@@ -309,22 +309,22 @@
         font-size: 20px;
     }
 
-    .divTag>p {
+    .efo-tag>p {
         padding: 13px;
     }
 
-    .divTag>figure {
+    .efo-tag>figure {
         position: relative;
         bottom: 94px;
         left: 270px;
     }
 
-    .divTag>figure>img {
+    .efo-tag>figure>img {
         width: 49px;
         height: 42px;
     }
 
-    .toggleArticles {
+    .efo-tag-articles {
         display: flex;
         flex-direction: column;
         position: relative;
@@ -332,19 +332,19 @@
         margin: 0;
     }
 
-    .toggleArticles>article {
+    .efo-tag-articles>article {
         width: 320px;
         height: 101px;
         margin-top: 30px;
     }
 
-    .toggleArticles>article>p:nth-child(2) {
+    .efo-tag-articles>article>p:nth-child(2) {
         font-size: 15px;
         width: 254px;
         height: 45px;
     }
 
-    .lastArticles>h5,
+    .baseboard>h5,
     span {
         width: 168px;
         height: 33px;
@@ -352,14 +352,14 @@
         margin-bottom: 60px;
     }
 
-    .lastArticles>div {
+    .baseboard>div {
         /*Revisar alinhamento*/
         display: flex;
         flex-direction: column;
         margin-right: 300px;
     }
 
-    .lastArticles>div>article>img:nth-child(1) {
+    .baseboard>div>article>img:nth-child(1) {
         width: 320px;
         height: 190px;
         /* Revisar Imagens no XD */
@@ -367,42 +367,47 @@
         border-radius: 12px;
     }
 
-    .tittleMobileContainer {
+    .mobile-title-container {
         width: 221px;
         margin: 32px auto 16px 0;
         text-align: left;
     }
 
-    .mobileContainerArticles {
+    .mobile-container {
         display: flex;
     }
 
-    .mobilesectionNotices {
+    .mobile-container-articles {
         display: flex;
         flex-direction: column;
     }
 
-    .mobilesectionNotices>article {
+    .mobile-container-articles>article {
         display: flex;
         margin-top: 16px;
+        gap: 20px;
     }
 
-    .mobilesectionNotices>article>img {
+    .mobile-container-articles>article>img {
         width: 130px;
         height: 130px;
+    }
+
+    .mobile-container-articles>article>div>p{
+        margin-top: 8px;
     }
 
     footer {
         width: 100vw;
     }
 
-    .footerLinks>ul {
+    .efo-footer-nav>ul {
         display: flex;
         flex-flow: column wrap;
     }
 
     /*Estudar como aplicar o footer menu na versão mobile.*/
-    .footerLinks>ul>li:not(.listTittle) {
+    .efo-footer-nav>ul>li:not(.listTittle) {
         display: none;
     }
 
