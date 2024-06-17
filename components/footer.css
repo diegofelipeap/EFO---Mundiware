@@ -39,13 +39,13 @@ footer {
     margin-bottom: 10px;
 }
 
-.footerIcons {
+.footer-icons {
     align-items: center;
     display: flex;
     gap: 10px;
 }
 
-.footerIcons>a {
+.footer-icons>a {
     background-color: #FFFFFF;
     width: 36px;
     height: 36px;
@@ -53,23 +53,23 @@ footer {
     display: inline-flex;
 }
 
-.footerIcons>a>img {
+.footer-icons>a>img {
     width: auto;
 }
 
-.Facefooter {
+.facebook-icon {
     padding: 10px 14px;
 }
 
-.instaFooter {
+.instagram-icon {
     padding: 8px;
 }
 
-.xFooter {
+.x-icon {
     padding: 11px 9px 10px 10px;
 }
 
-.tubeFooter {
+.youtube-icon {
     padding: 11px 7px;
 }
 
@@ -81,23 +81,23 @@ footer {
     margin-bottom: 79.43px;
 }
 
-.logoEnterprise {
+.logo-mw-golab {
     display: flex;
     flex-direction: column;
 }
 
-.logoMundiware {
+.mw-logo {
     width: 133px;
     height: 23px;
     margin-bottom: 16.18px;
 }
 
-.logoGolab {
+.golab-logo {
     width: 135px;
     height: 28px;
 }
 
-.secCaption {
+.caption {
     display: flex;
     justify-content: center;
     align-items: center;
