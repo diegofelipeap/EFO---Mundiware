@@ -138,11 +138,11 @@
         z-index: 100;
     }
 
-    .btnArticle {
+    .button-play {
         display: none;
     }
 
-    .mobileBanner {
+    .mobile-ad {
         display: flex;
         width: 320px;
         height: 100px;
@@ -164,7 +164,7 @@
         margin-left: 0;
     }
 
-    .firstBanner {
+    .desktop-ad {
         display: none;
     }
 
@@ -187,7 +187,7 @@
         font-size: 18px;
     }
 
-    .firstP {
+    .publication-date{
         width: 320px;
         font-size: 12px;
         letter-spacing: 0px;
@@ -208,39 +208,39 @@
         height: 229px;
     }
 
-    .mainImgArticle>img {
+    .efo-article-figure>img {
         width: 320px;
         height: 244px;
     }
 
-    .firstQuote {
+    .wrap-blockquote {
         width: 320px;
         height: 158px;
         margin-left: 0;
     }
 
-    .quotationMark01 {
+    .quotation-mark01 {
         position: relative;
         left: 140px;
         top: 10px;
     }
 
-    .quotationMark02 {
+    .quotation-mark02 {
         display: none;
     }
 
-    .firstQuote>blockquote {
+    .wrap-blockquote>blockquote {
         margin-top: 12px;
     }
 
-    .firstQuote>blockquote>h4 {
+    .wrap-blockquote>blockquote>h4 {
         width: 288px;
         height: 76px;
         text-align: center;
         font-size: 20px;
     }
 
-    .firstQuote>blockquote>cite {
+    .wrap-blockquote>blockquote>cite {
         width: 254px;
         height: 17px;
         text-align: center;
@@ -257,7 +257,7 @@
         margin-left: 0;
     }
 
-    .mobileBanner02 {
+    .mobile-ad02 {
         display: block;
         width: 300px;
         height: 250px;
