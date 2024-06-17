@@ -393,7 +393,7 @@
         height: 130px;
     }
 
-    .mobile-container-articles>article>div>p{
+    .mobile-container-articles>article>div>p {
         margin-top: 8px;
     }
 
@@ -407,7 +407,7 @@
     }
 
     /*Estudar como aplicar o footer menu na versão mobile.*/
-    .efo-footer-nav>ul>li:not(.listTittle) {
+    .efo-footer-nav>ul>li:not(.footer-categories) {
         display: none;
     }
 
