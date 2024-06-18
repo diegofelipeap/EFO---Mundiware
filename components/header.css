@@ -183,26 +183,28 @@ li a:hover {
     align-items: center;
     width: 88vw;
 }
+.efo-articles>a{
+    text-decoration: none;
+}
 
-.efo-articles>article {
+.efo-articles>a>article {
     display: flex;
     justify-content: center;
     margin: 18px 0;
     cursor: pointer;
 }
 
-
 header>section {
     border-bottom: 1px solid #DDDDDD;
 }
 
-header>section>article>img {
+header>section>a>article>img {
     width: 75px;
     height: 75px;
     border-radius: 12px;
 }
 
-section>article>p {
+section>a>article>p {
     width: 216px;
     height: 63px;
     text-align: left;

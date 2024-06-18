@@ -19,7 +19,11 @@ aside {
     cursor: pointer;
 }
 
-.efo-wrap-notices>h3 {
+.efo-wrap-notices>a {
+    text-decoration: none;
+}
+
+.efo-wrap-notices>a>h3 {
     height: 45px;
     text-align: left;
     font: normal normal bold 32px'poppins_bold';
@@ -27,20 +31,20 @@ aside {
     margin: 34px 0 24px;
 }
 
-.efo-wrap-notices>article {
+.efo-wrap-notices>a>article {
     display: flex;
     gap: 16px;
     margin: 20px 0;
 }
 
-.efo-wrap-notices>article>img {
+.efo-wrap-notices>a>article>img {
     width: 106px;
     height: 101px;
     border-radius: 12px;
     cursor: pointer;
 }
 
-.efo-wrap-notices>article>p {
+.efo-wrap-notices>a>article>p {
     width: 178px;
     height: 83px;
     text-align: left;

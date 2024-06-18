@@ -332,13 +332,13 @@
         margin: 0;
     }
 
-    .efo-tag-articles>article {
+    .efo-tag-articles>a>article {
         width: 320px;
         height: 101px;
         margin-top: 30px;
     }
 
-    .efo-tag-articles>article>p:nth-child(2) {
+    .efo-tag-articles>a>article>p:nth-child(2) {
         font-size: 15px;
         width: 254px;
         height: 45px;
@@ -359,7 +359,7 @@
         margin-right: 300px;
     }
 
-    .baseboard>div>article>img:nth-child(1) {
+    .baseboard>div>a>article>img:nth-child(1) {
         width: 320px;
         height: 190px;
         /* Revisar Imagens no XD */
@@ -406,9 +406,14 @@
         flex-flow: column wrap;
     }
 
-    /*Estudar como aplicar o footer menu na versão mobile.*/
     .efo-footer-nav>ul>li:not(.footer-categories) {
         display: none;
     }
 
+    .efo-footer-nav>ul{
+       margin: 0;
+       display: flex;
+       position: absolute; /*Verificar formas de aplicar  o novo footer   mobile.*/
+    }
+ 
 }
