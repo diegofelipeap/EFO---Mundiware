@@ -402,21 +402,23 @@
 
     footer {
         width: 100vw;
+        position: absolute;
+        left: -5px;
     }
 
     .efo-footer-nav>ul {
         display: flex;
-        flex-flow: column wrap;
+        flex-direction: column;
     }
 
     .efo-footer-nav>ul>li:not(.footer-categories) {
         display: none;
     }
 
-    .efo-footer-nav>ul{
-       margin: 0;
-       display: flex;
-       position: absolute; /*Verificar formas de aplicar  o novo footer   mobile.*/
-    }
+  #edit{
+    position: absolute;
+    left: 10px;
+  }
+
  
 }
