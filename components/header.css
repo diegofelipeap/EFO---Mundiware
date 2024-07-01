@@ -77,7 +77,7 @@ header>.breadcrumb-navigation>ul {
     max-width: 95%;
 }
 
-.breadcrumb-navigation>::-webkit-scrollbar{
+.breadcrumb-navigation>::-webkit-scrollbar {
     display: none;
 }
 
@@ -199,14 +199,14 @@ li a:hover {
     margin: 18px 0;
     cursor: pointer;
     width: 305px;
-    /*Para adaptações  futuras.*/
 }
 
-.smoke { /* Criar estilização no media querie*/
+.smoke {
+    /* Criar estilização no media querie*/
     position: absolute;
     background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     width: 70px;
-    height: 107px;
+    height: 77px;
     right: 0;
 }
 
