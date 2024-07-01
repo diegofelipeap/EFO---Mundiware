@@ -429,31 +429,32 @@
     .cities {
         position: relative;
         top: 10px;
-        right: 217px;
+        right: 190px;
     }
 
     .edit {
         position: relative;
         top: 10px;
+        left: 12px;
     }
 
     .columns {
         position: relative;
-        top: 137px;
-        right: 428px;
+        top: 130px;
+        right: 387px;
     }
 
     .links {
         position: relative;
         bottom: 90px;
-        left: -21px;
+        left: -10px;
     }
 
     .footer-icons {
         display: flex;
         position: relative;
         top: 85px;
-        left: -140px;
+        left: -110px;
         gap: 0;
     }
 
@@ -465,13 +466,13 @@
     .ajor {
         position: relative;
         top: 70px;
-        left: -140px;
+        left: -120px;
     }
 
     .logo-mw-golab {
         display: flex;
         flex-direction: row;
         position: relative;
-        left: -85px;
+        left: -55px;
     }
 }
