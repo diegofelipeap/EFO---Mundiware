@@ -72,8 +72,6 @@
     }
 
     header>.breadcrumb-navigation>ul {
-        list-style: none;
-        display: flex;
         width: 978px;
         height: 26px;
         padding: 25px;

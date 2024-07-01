@@ -64,20 +64,17 @@ header>nav>img {
     top: 12px;
 }
 
-nav {
-    width: 100%;
-}
-
 header>.breadcrumb-navigation>ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 13px 45px;
-    overflow-x: scroll;
-    overflow-y: hidden;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 95%;
 }
 
 .breadcrumb-navigation>::-webkit-scrollbar{
