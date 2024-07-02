@@ -21,10 +21,6 @@ footer {
     margin-top: -100px;
 }
 
-.efo-footer-nav ul>li,
-.efo-footer-nav ul>p {
-    list-style: none;
-}
 
 .efo-footer-nav li>p {
     color: #FFFFFF;
@@ -37,6 +33,12 @@ footer {
     color: #FFFFFF;
     font-size: 16px;
     margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.efo-footer-nav ul>li,
+.efo-footer-nav ul>p {
+    list-style: none;
 }
 
 .footer-icons {

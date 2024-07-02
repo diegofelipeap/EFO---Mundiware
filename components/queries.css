@@ -18,7 +18,7 @@
         grid-column: 1;
         position: relative;
         top: -5px;
-        right: 35px;
+        right: -210px;
     }
 
     nav>img {
@@ -124,7 +124,6 @@
         display: flex;
         flex-direction: row;
         position: fixed;
-        /* Verificar em telas maiores ou no projeto final como fixar a barra em geral.*/
         bottom: 0;
         left: 0;
         width: 100vw;
@@ -351,7 +350,6 @@
     }
 
     .baseboard>div {
-        /*Revisar alinhamento*/
         display: flex;
         flex-direction: column;
         margin-right: 300px;
@@ -360,7 +358,6 @@
     .baseboard>div>a>article>img:nth-child(1) {
         width: 320px;
         height: 190px;
-        /* Revisar Imagens no XD */
         background: transparent url('img/Retângulo 57.png') 0% 0% no-repeat padding-box;
         border-radius: 12px;
     }
@@ -416,7 +413,6 @@
         display: none;
     }
 
-
     .footer-topic::before {
         content: '>';
         transform: scale(0.9, 2.5);
@@ -425,7 +421,6 @@
         margin-right: 10px;
     }
 
-    /*Testar*/
     .cities {
         position: relative;
         top: 10px;
@@ -474,5 +469,9 @@
         flex-direction: row;
         position: relative;
         left: -55px;
+    }
+
+    .smoke-02 {
+        display: none;
     }
 }

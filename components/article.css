@@ -1,6 +1,5 @@
 .efo-container {
     width: 950px;
-    /*Verificar futuramente.*/
 }
 
 .efo-container>p {
@@ -84,7 +83,6 @@ h2 {
     margin-bottom: 24px;
     padding-right: 20px;
 }
-
 
 .button-play>div {
     width: 38px;

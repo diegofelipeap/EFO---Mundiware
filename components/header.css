@@ -10,6 +10,7 @@ header {
     border-radius: 90px;
     border: none;
     opacity: 1;
+    margin-left: 100px;
 }
 
 .header-button>img {
@@ -182,7 +183,7 @@ header>.breadcrumb-navigation>ul>a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-left: 6%;
     overflow-x: scroll;
     width: 88vw;
     max-width: 1525px;
@@ -205,12 +206,19 @@ header>.breadcrumb-navigation>ul>a:hover {
 }
 
 .smoke {
-    /* Criar estilização no media querie*/
     position: absolute;
     background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
     width: 70px;
     height: 77px;
     right: 0;
+}
+
+.smoke-02 {
+    position: absolute;
+    right: 90px;
+    width: 250px;
+    height: 107px;
+    background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
 }
 
 header>section {
