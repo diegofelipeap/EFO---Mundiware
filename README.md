@@ -1,6 +1,6 @@
 # ENFOCO
 
-Este é um projeto em desenvolvimento que faz parte de um trabalho de estágio na empresa Mundiware. Este repositório contém os códigos HTML, CSS e JavaScript do site, mas ainda está em progresso e aberto a novas contribuições.
+Este é um projeto em desenvolvimento que faz parte de um trabalho de estágio na empresa Mundiware. Este repositório contém os códigos HTML, CSS e JavaScript do site, finalizado.
 
 ## Deploy Atual:
 Você pode visualizar o site hospedado clicando <a href="https://diegofelipeap.github.io/EFO---Mundiware/">aqui.</a> <br> 
